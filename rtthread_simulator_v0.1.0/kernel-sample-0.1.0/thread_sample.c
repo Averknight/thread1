@@ -67,7 +67,7 @@ int thread_sample(void)
     if (tid1 != RT_NULL)
         rt_thread_startup(tid1);
 
-    /* 初始化线程2，名称是thread2，入口是thread2_entry */
+    /* 初始化线程2，名称是thread2，入口是thread2_entry ����*/
     rt_thread_init(&thread2,
                    "thread2",
                    thread2_entry,
