@@ -60,5 +60,5 @@ int timer_sample(void)
     return 0;
 }
 
-/* 导出到 msh 命令列表中 */
+/* 导出到 msh 令列表中 */
 MSH_CMD_EXPORT(timer_sample, timer sample);
